@@ -9,6 +9,7 @@
 [VII. SUPORTE](https://github.com/pepeleascov/cmsouza#vii-suporte)<br />
 [ IV. NOTAS](https://github.com/pepeleascov/cmsouza#notas)<br />
 
+
 --------
 
 # I. ESCOPO DESTA DOCUMENTAÇÃO
@@ -224,6 +225,9 @@ Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmso
 [paulo@leadz.software](mailto:paulo@leadz.software) <br />
 (43) 99969-6665 <br />
 [michael@leadz.software](mailto:michael@leadz.software) <br />
+
+### Data de Criação
+Doc. Criado em Outubro/2022 <br />
 
 ### Última Atualização
 06/11/2023
