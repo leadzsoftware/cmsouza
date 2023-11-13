@@ -247,4 +247,8 @@ https://github.com/pepeleascov/cmsouza <br />
 [^~]: ∼ (aproximação, similaridade, equipolência)
 [^vista]: [NovoVista](http://www.vistasoft.com.br/)
 [^trabalhe]: [Trabalhe Conosco](https://www.cmsouza.com.br/trabalhe-conosco)
-[^anuncie]: [Anuncie seu imóvel](https://www.cmsouza.com.br/anuncie-seu-imovel)
+[^anuncie]: [Anuncie seu imóvel](https://www.cmsouza.com.br/anuncie-seu-imovel) 
+
+<!-- 
+Comment
+-->
