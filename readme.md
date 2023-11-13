@@ -219,8 +219,6 @@ As informações dos imóveis que são salvas são as seguintes:
 
 As fotos dos imóveis também passam por uma otimização em nosso servidor, e, posteriormente, é replicada para o nosso CDN[^cdn]. <br />
 Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em aproximadamente 80%, indo de ~300ms[^~] [^ms] para cerca de ~60ms[^ms]. Isso equivale a um carregamento de imagens 4 vezes mais rápida em comparação ao CDN[^cdn] do Vista[^vista]. <br />
-O objetivo desta otimização e posterior entrega das imagens ao CDN da Leadz, além de tornar o carregamento das imagens do site da CMSouza mais rápido, é torná-lo independente do Novo Vista, evitando assim, os períodos de instabilidade que já passamos.
-
 
 
 # VII. SUPORTE
