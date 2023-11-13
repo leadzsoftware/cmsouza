@@ -68,6 +68,11 @@ Os contatos provenientes da opção "Atendimento por WhatsApp" na barra de conta
 - [x] Exibir no Site
 - [x] Lançamento
 
+- Configurando os imóveis na categoria "Desenvolvimento Real Estate Intelligence":
+
+É necessário que o EMPREENDIMENTO esteja cadastrado no CRM na categoria **EMPREENDIMENTO** e com os checkboxes **"Exibir no Site"** e **"BTS"** marcados. Os **EMPREENDIMENTOS** não são exibidos na pesquisa de **IMÓVEIS.**
+- [x] Exibir no Site
+- [x] BTS
 
 ### Sobre as páginas de cadastro
 
@@ -226,12 +231,12 @@ Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmso
 (43) 99969-6665 <br />
 
 ### Data de Criação
-Doc. Criado em Outubro/2022 <br />
+01/10/2022 <br />
 
 ### Última Atualização
-06/11/2023 <br />
+13/11/2023 <br />
 
-### Histórico 
+### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
 
 #### NOTAS
