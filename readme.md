@@ -225,7 +225,7 @@ Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em 
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
 
-[suporte@leadz.software](mailto:suporte@leadz.software) <br />
+Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 
 ### Data de Criação
 01/10/2022 <br />
