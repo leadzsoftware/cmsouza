@@ -38,7 +38,7 @@ A informação "departamento" segue a seguinte ordem:
 
     CMSOUZA VENDA: 11
     CMSOUZA LOCAÇÃO: 12
-    CMSOUZA LANÇAMENTOS: 13
+    CMSOUZA LANÇAMENTOS: 13 (envia o lead por e-mail para leads@cmsouza.com.br)
 
 Os portais integrados são informados ao Vista[^vista] com as seguintes mídias de origem, sem espaços:
 
