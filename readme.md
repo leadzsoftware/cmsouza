@@ -6,8 +6,9 @@
 [ IV. CHATBOT](https://github.com/leadzsoftware/cmsouza#iv-chatbot)<br />
 [  V. BACKUP - IMÓVEIS](https://github.com/leadzsoftware/cmsouza#v-backup---c%C3%B3pia-do-banco-de-im%C3%B3veis)<br />
 [ VI. OTIMIZAÇÃO - IMAGENS](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
-[VII. SUPORTE](https://github.com/leadzsoftware/cmsouza#vii-suporte)<br />
-[ IV. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
+[VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
+[VIII. SUPORTE](https://github.com/leadzsoftware/cmsouza#vii-suporte)<br />
+[ IX. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
 
 
 --------
@@ -38,13 +39,13 @@ A informação "departamento" segue a seguinte ordem:
 
     CMSOUZA VENDA: 11
     CMSOUZA LOCAÇÃO: 12
-    CMSOUZA LANÇAMENTOS: 13 (envia o lead por e-mail para leads@cmsouza.com.br)
+    CMSOUZA LANÇAMENTOS: 13 (Para Meta Ads: envia o lead por e-mail para leads@cmsouza.com.br)
 
 Os portais integrados são informados ao Vista[^vista] com as seguintes mídias de origem, sem espaços:
 
-- GrupoZap
-- VivaReal
-- ChavesNaMão
+- Digital_GrupoZap
+- Digital_VivaReal
+- Digital_ChavesNaMão
 
 Caso seja necessária a integração de um novo portal, favor fazer a solicitação através de um ticket de atendimento.
 
@@ -56,11 +57,11 @@ As entradas de lead através do site são as seguintes:
 
 - Página do imóvel - Quero mais informações:
 
-As solicitações de contato entram para a roleta de atendimento do Vista[^vista] com a mídia de origem definida como "Site", contendo o Nome, Telefone e Imóvel de Interesse.
+As solicitações de contato entram para a roleta de atendimento do Vista[^vista] com a mídia de origem definida como "Digital_Site", contendo o Nome, Telefone e Imóvel de Interesse.
 
 - Barra de contatos:
 
-Os contatos provenientes da opção "Atendimento por WhatsApp" na barra de contatos redirecionam o cliente para o atendimento através do chatbot[^chatbot] (detalhado na seção seguinte), entram para a roleta de atendimento do Vista[^vista] com a mídia de origem definida como "Site-Whatsapp", e com a mensagem enviada pelo cliente incluída no campo "mensagem".
+Os contatos provenientes da opção "Atendimento por WhatsApp" na barra de contatos redirecionam o cliente para o atendimento através do chatbot[^chatbot] (detalhado na seção seguinte), entram para a roleta de atendimento do Vista[^vista] com a mídia de origem definida como "Digital_Site_Whatsapp", e com a mensagem enviada pelo cliente incluída no campo "mensagem".
 
 - Configurando os imóveis na categoria "Exclusividade Vectra Construtora":
 
@@ -93,9 +94,9 @@ Nosso sistema (Leadz) atua em conjunto com o serviço contratado "Sendpulse"[^ch
 Para os contatos provenientes dos portais, nosso sistema identifica os links dentro das mensagens e classifica a mídia de origem de acordo com o link do portal.
 Dessa forma, os leads dos portais atendidos através do WhatsApp são enviados para a roleta de atendimento com uma das seguintes mídias de origem:
 
-    GrupoZap-Whatsapp
-    VivaReal-Whatsapp
-    ChavesNaMão-Whatsapp
+    Digital_GrupoZap_Whatsapp
+    Digital_VivaReal_Whatsapp
+    Digital_ChavesNaMão_Whatsapp
 
 Os outros contatos provenientes da opção "Atendimento por WhatsApp" da barra de contatos do site da CMSouza são classificados com a mídia de origem "Site-Whatsapp". <br />
 O nosso sistema, em conjunto com o chatbot[^chatbot], armazena as mensagens recebidas durante a interação do chat e ao final as envia no campo "mensagem" do lead a ser cadastrado na roleta de atendimento.
@@ -220,8 +221,20 @@ As informações dos imóveis que são salvas são as seguintes:
 As fotos dos imóveis também passam por uma otimização em nosso servidor, e, posteriormente, é replicada para o nosso CDN[^cdn]. <br />
 Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em aproximadamente 80%, indo de ~300ms[^~] [^ms] para cerca de ~60ms[^ms]. Isso equivale a um carregamento de imagens 4 vezes mais rápida em comparação ao CDN[^cdn] do Vista[^vista]. <br />
 
+# VII. MÍDIAS DE ORIGEM
 
-# VII. SUPORTE
+01. Vectra
+- 01 - Hera
+02. Construtora Zacaria
+- 01 - Maison Jardin
+03. Paysage Corpal
+- 01 - Haus
+- 02 - Garnet
+04. - Artesano
+- 01 - Artesano
+
+
+# VIII. SUPORTE
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
 
@@ -231,12 +244,12 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 01/10/2022 <br />
 
 ### Última Atualização
-13/11/2023 <br />
+10/06/2024 <br />
 
 ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
 
-#### NOTAS
+#### IX. NOTAS
 [^chatbot]: [Chatbot - Sendpulse](https://sendpulse.com)
 [^cdn]: CDN - Content Delivery Network / Rede de entrega de conteúdo
 [^cmslead]: CMSLEAD - Sistema criado para recebimento e interpretação dos e-mails de portais
