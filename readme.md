@@ -223,19 +223,43 @@ Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em 
 
 # VII. MÍDIAS DE ORIGEM
 
+Segue a nomenclatura
+
+
+
+
+# VIII. CÓDIGOS PARA LANÇAMENTOS
+
+Segue o padrão de nomenclatura LLNNNN
+
+LL: Duas letras indicando a mídia de captação.
+NN: Dois primeiros números indicando a construtora.
+NN: Dois últimos números indicando o empreendimento.
+
+Mídia de Captação (LL):
+
+ME: Meta
+LP: Landing Page ou RD: RDStation
+
+Construtora (NN - 01 a 99):
+
+01: Vectra
+02: Paysage
+03: Zacaria
+
+Empreendimento (NN - 01 a 99):
+
+Numerados de 01 a 99 para cada construtora.
 
     01 Vectra
-        - 01 - Hera
+        01 - Hera
     02. Construtora Zacaria
-        - 01 - Maison Jardin
+        01 - Maison Jardin
     03. Paysage Corpal
-        - 01 - Haus
-        - 02 - Garnet
+        01 - Haus
+        02 - Garnet
     04. - Artesano
-        - 01 - Artesano
-
-
-# VIII. SUPORTE
+        01 - Artesano
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
 
