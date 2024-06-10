@@ -6,7 +6,7 @@
 [ IV. CHATBOT](https://github.com/leadzsoftware/cmsouza#iv-chatbot)<br />
 [  V. BACKUP - IMÓVEIS](https://github.com/leadzsoftware/cmsouza#v-backup---c%C3%B3pia-do-banco-de-im%C3%B3veis)<br />
 [ VI. OTIMIZAÇÃO - IMAGENS](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
-[VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
+[VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br />
 [VIII. SUPORTE](https://github.com/leadzsoftware/cmsouza#vii-suporte)<br />
 [ IX. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
 
@@ -223,15 +223,16 @@ Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em 
 
 # VII. MÍDIAS DE ORIGEM
 
-01. Vectra
-- 01 - Hera
-02. Construtora Zacaria
-- 01 - Maison Jardin
-03. Paysage Corpal
-- 01 - Haus
-- 02 - Garnet
-04. - Artesano
-- 01 - Artesano
+
+    01 Vectra
+        - 01 - Hera
+    02. Construtora Zacaria
+        - 01 - Maison Jardin
+    03. Paysage Corpal
+        - 01 - Haus
+        - 02 - Garnet
+    04. - Artesano
+        - 01 - Artesano
 
 
 # VIII. SUPORTE
