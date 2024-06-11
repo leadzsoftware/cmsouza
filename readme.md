@@ -228,38 +228,48 @@ Segue a nomenclatura
 
 
 
-# VIII. CÓDIGOS PARA LANÇAMENTOS
+# VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS
 
-Segue o padrão de nomenclatura LLNNNN
+Segue o padrão de nomenclatura *LLNNNNN*
 
-LL: Duas letras indicando a mídia de captação.
-NN: Dois primeiros números indicando a construtora.
-NN: Dois últimos números indicando o empreendimento.
+*LL*: Duas letras indicando a mídia de captação.
+*NN*: Dois primeiros números indicando a construtora.
+*NNN*: Três últimos números indicando o empreendimento.
 
 Mídia de Captação (LL):
 
 ME: Meta
-LP: Landing Page ou RD: RDStation
+LP: Landing Page
+RD: RDStation
 
 Construtora (NN - 01 a 99):
 
-01: Vectra
-02: Paysage
-03: Zacaria
+01 - Vectra
+02 - Paysage
+03 - Zacaria
+04 - Artesano
 
-Empreendimento (NN - 01 a 99):
-
-Numerados de 01 a 99 para cada construtora.
+Empreendimento (NN - 01 a 999):
+Numerados de 01 a 999 para cada construtora.
 
     01 Vectra
-        01 - Hera
-    02. Construtora Zacaria
-        01 - Maison Jardin
-    03. Paysage Corpal
-        01 - Haus
-        02 - Garnet
-    04. - Artesano
-        01 - Artesano
+        001 - Hera
+    02 Construtora Zacaria
+        001 - Maison Jardin
+    03 Paysage Corpal
+        001 - Haus
+        002 - Garnet
+    04 Artesano
+        001 - Artesano
+
+Exemplo de uso:
+
+*ME01001*: MetaAds, Vectra, Hera
+*LP03002*: LandingPage, Paysage Corpal, Garnet
+
+*Implementação nas Mensagens*:
+O código gerado deve ser incluído nos final dos textos das mensagens pré-definidas para o WhatsApp nas campanhas ativas pela equipe responsável. Isso permite que o sistema interprete os códigos e faça o direcionamento adequado
+
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
 
