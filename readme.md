@@ -7,8 +7,9 @@
 [  V. BACKUP - IMÓVEIS](https://github.com/leadzsoftware/cmsouza#v-backup---c%C3%B3pia-do-banco-de-im%C3%B3veis)<br />
 [ VI. OTIMIZAÇÃO - IMAGENS](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
 [VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br />
-[VIII. SUPORTE](https://github.com/leadzsoftware/cmsouza#vii-suporte)<br />
-[ IX. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
+[VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#viii-estrutura-de-c%C3%B3digos-para-identifica%C3%A7%C3%A3o-de-empreendimentos)<br />
+[ IX. SUPORTE](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#ix-suporte)<br />
+[  X. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
 
 
 --------
@@ -273,7 +274,7 @@ O código gerado deve ser incluído nos final dos textos das mensagens pré-defi
 
 
 
-# .IX SUPORTE
+# IX. SUPORTE
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
 
