@@ -234,23 +234,27 @@ Segue a nomenclatura
 Segue o padrão de nomenclatura **LLNNNNN**
 
 **LL**: Duas letras indicando a mídia de captação.
+
 **NN**: Dois primeiros números indicando a construtora.
+
 **NNN**: Três últimos números indicando o empreendimento.
 
-Mídia de Captação (LL):
+
+
+**Mídia de Captação (LL):**
 
 ME: Meta
 LP: Landing Page
 RD: RDStation
 
-Construtora (NN - 01 a 99):
+**Construtora (NN - 01 a 99):**
 
 01 - Vectra
 02 - Paysage
 03 - Zacaria
 04 - Artesano
 
-Empreendimento (NN - 01 a 999):
+**Empreendimento (NN - 01 a 999):**
 Numerados de 01 a 999 para cada construtora.
 
     01 Vectra
