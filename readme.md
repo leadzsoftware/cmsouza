@@ -48,7 +48,8 @@ Os portais integrados são informados ao Vista[^vista] com as seguintes mídias 
 - Digital_VivaReal
 - Digital_ChavesNaMão
 
-Caso seja necessária a integração de um novo portal, favor fazer a solicitação através de um ticket de atendimento.
+> [!NOTE]
+> Caso seja necessária a integração de um novo portal, favor fazer a solicitação através de um ticket de atendimento.
 
 
 
