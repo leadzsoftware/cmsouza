@@ -237,10 +237,29 @@ Segue a nomenclatura
 Segue o padrão de nomenclatura **LLNNNNN**
 
 **LL**: Duas letras indicando a mídia de captação.
-
 **NN**: Dois primeiros números indicando a construtora.
-
 **NNN**: Três últimos números indicando o empreendimento.
+
+
+
+
+**Mídia de Captação (LL):**
+
+**ME**: Meta
+**LP**: Landing Page
+**RD**: RDStation
+
+
+**Construtora (NN - 01 a 99):**
+
+**01** - Vectra
+**02** - Paysage
+**03** - Zacaria
+**04** - Artesano
+
+
+**Empreendimento (NN - 01 a 999):**
+Numerados de 01 a 999 para cada construtora.
 
 ```mermaid
 flowchart LR
@@ -257,50 +276,7 @@ flowchart LR
     C1 --> nk["03001"]
     C2 --> n9["03002"]
     D1 --> nq["04001"]
-
-
 ```
-
-
-**Mídia de Captação (LL):**
-
-**ME**: Meta
-
-**LP**: Landing Page
-
-**RD**: RDStation
-
-
-**Construtora (NN - 01 a 99):**
-
-**01** - Vectra
-
-**02** - Paysage
-
-**03** - Zacaria
-
-**04** - Artesano
-
-
-**Empreendimento (NN - 01 a 999):**
-Numerados de 01 a 999 para cada construtora.
-
-    01 Vectra
-        001 - Hera
-        002 - Gaia
-        003 - Oro
-        004 - Wonder
-        005 - Wynn
-
-    02 Construtora Zacaria
-        001 - Maison Jardin
-
-    03 Paysage Corpal
-        001 - Haus
-        002 - Garnet
-
-    04 Artesano
-        001 - Artesano
 
 Exemplo de uso:
 
