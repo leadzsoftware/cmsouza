@@ -242,31 +242,57 @@ Segue o padrão de nomenclatura **LLNNNNN**
 
 **NNN**: Três últimos números indicando o empreendimento.
 
+```mermaid
+graph TD
+    A[01 - Vectra] -->|001 - Hera| B1
+    A -->|002 - Gaia| B2
+    A -->|003 - Oro| B3
+    A -->|004 - Wonder| B4
+    A -->|005 - Wynn| B5
+    C[02 - Construtora Zacaria] -->|001 - Maison Jardin| D1
+    E[03 - Paysage Corpal] -->|001 - Haus| F1
+    E -->|002 - Garnet| F2
+    G[04 - Artesano] -->|001 - Artesano| H1
+```
 
 
 **Mídia de Captação (LL):**
 
-ME: Meta
-LP: Landing Page
-RD: RDStation
+**ME**: Meta
+
+**LP**: Landing Page
+
+**RD**: RDStation
+
 
 **Construtora (NN - 01 a 99):**
 
-01 - Vectra
-02 - Paysage
-03 - Zacaria
-04 - Artesano
+**01** - Vectra
+
+**02** - Paysage
+
+**03** - Zacaria
+
+**04** - Artesano
+
 
 **Empreendimento (NN - 01 a 999):**
 Numerados de 01 a 999 para cada construtora.
 
     01 Vectra
         001 - Hera
+        002 - Gaia
+        003 - Oro
+        004 - Wonder
+        005 - Wynn
+
     02 Construtora Zacaria
         001 - Maison Jardin
+
     03 Paysage Corpal
         001 - Haus
         002 - Garnet
+
     04 Artesano
         001 - Artesano
 
@@ -293,8 +319,9 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 ### Última Atualização
 10/06/2024 <br />
 
-### Histórico - Link anterior
+<!-- ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
+-->
 
 #### IX. NOTAS
 [^chatbot]: [Chatbot - Sendpulse](https://sendpulse.com)
