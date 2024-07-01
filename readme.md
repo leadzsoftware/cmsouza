@@ -243,16 +243,22 @@ Segue o padrão de nomenclatura **LLNNNNN**
 **NNN**: Três últimos números indicando o empreendimento.
 
 ```mermaid
-graph TD
-    A[01 - Vectra] -->|001 - Hera| B1
-    A -->|002 - Gaia| B2
-    A -->|003 - Oro| B3
-    A -->|004 - Wonder| B4
-    A -->|005 - Wynn| B5
-    C[02 - Construtora Zacaria] -->|001 - Maison Jardin| D1
-    E[03 - Paysage Corpal] -->|001 - Haus| F1
-    E -->|002 - Garnet| F2
-    G[04 - Artesano] -->|001 - Artesano| H1
+flowchart LR
+    A["01 - Vectra"] --> A1["001 - Hera"] & A2["002 - Gaia"] & A3["003 - Oro"] & A4["004 - Wonder"] & A5["005 - Wynn"]
+    B["02 - Construtora Zacaria"] --> B1["001 - Maison Jardin"]
+    C["03 - Paysage Corpal"] --> C1["001 - Haus"] & C2["002 - Garnet"]
+    D["04 - Artesano"] --> D1["001 - Artesano"]
+    A1 --> nv["01001"]
+    A2 --> n0["01002"]
+    A3 --> nt["01003"]
+    A4 --> nf["01004"]
+    A5 --> nh["01005"]
+    B1 --> nn["02001"]
+    C1 --> nk["03001"]
+    C2 --> n9["03002"]
+    D1 --> nq["04001"]
+
+
 ```
 
 
