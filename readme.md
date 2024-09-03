@@ -6,7 +6,7 @@
 [ IV. CHATBOT](https://github.com/leadzsoftware/cmsouza#iv-chatbot)<br />
 [  V. BACKUP - IMÓVEIS](https://github.com/leadzsoftware/cmsouza#v-backup---c%C3%B3pia-do-banco-de-im%C3%B3veis)<br />
 [ VI. OTIMIZAÇÃO - IMAGENS](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
-[VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br />
+<!-- [VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br /> -->
 [VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#viii-estrutura-de-c%C3%B3digos-para-identifica%C3%A7%C3%A3o-de-empreendimentos)<br />
 [ IX. SUPORTE](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#ix-suporte)<br />
 [  X. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
@@ -26,27 +26,28 @@ A integração com os portais com a roleta de atendimento do Vista[^vista] funci
 Uma vez que o servidor Leadz recebe o e-mail, ele o interpreta e extrai as informações necessárias para cadastrar o lead na roleta. <br />
 Exemplo de lead interpretado e enviado para o Vista[^vista]:
 
-    agencia: 1
-    veiculo: GrupoZap
+    veiculo: Locação_GrupoZap
     mensagem:  --conteúdo do e-mail--  
     nome: --nome do contato--
-    fone: (43) 99###-####
+    fone: (43) #####-####
     email: e-mail do contato
     anuncio: 7230
-    interesse: locação
-    departamento: 12
+    interesse: Venda | locação
+    departamento: 11 | 12
 
 A informação "departamento" segue a seguinte ordem:
 
     CMSOUZA VENDA: 11
     CMSOUZA LOCAÇÃO: 12
-    CMSOUZA LANÇAMENTOS: 13 (Para Meta Ads: envia o lead por e-mail para leads@cmsouza.com.br)
+    CMSOUZA LANÇAMENTOS: 13
+    CMSOUZA REAL ESTATE: 14
+    CMSOUZA VECTRA: 15
 
 Os portais integrados são informados ao Vista[^vista] com as seguintes mídias de origem, sem espaços:
 
-- Digital_GrupoZap
-- Digital_VivaReal
-- Digital_ChavesNaMão
+- Venda | Locação_GrupoZap
+- Venda | Locação_VivaReal
+- Venda | Locação_ChavesNaMão
 
 > [!NOTE]
 > Caso seja necessária a integração de um novo portal, favor fazer a solicitação através de um ticket de atendimento.
@@ -96,9 +97,9 @@ Nosso sistema (Leadz) atua em conjunto com o serviço contratado "Sendpulse"[^ch
 Para os contatos provenientes dos portais, nosso sistema identifica os links dentro das mensagens e classifica a mídia de origem de acordo com o link do portal.
 Dessa forma, os leads dos portais atendidos através do WhatsApp são enviados para a roleta de atendimento com uma das seguintes mídias de origem:
 
-    Digital_GrupoZap_Whatsapp
-    Digital_VivaReal_Whatsapp
-    Digital_ChavesNaMão_Whatsapp
+    Venda | Locação_GrupoZap_Whatsapp
+    Venda | Locação_VivaReal_Whatsapp
+    Venda | Locação_ChavesNaMão_Whatsapp
 
 Os outros contatos provenientes da opção "Atendimento por WhatsApp" da barra de contatos do site da CMSouza são classificados com a mídia de origem "Site-Whatsapp". <br />
 O nosso sistema, em conjunto com o chatbot[^chatbot], armazena as mensagens recebidas durante a interação do chat e ao final as envia no campo "mensagem" do lead a ser cadastrado na roleta de atendimento.
@@ -225,13 +226,13 @@ As informações dos imóveis que são salvas são as seguintes:
 As fotos dos imóveis também passam por uma otimização em nosso servidor, e, posteriormente, é replicada para o nosso CDN[^cdn]. <br />
 Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em aproximadamente 80%, indo de ~300ms[^~] [^ms] para cerca de ~60ms[^ms]. Isso equivale a um carregamento de imagens 4 vezes mais rápida em comparação ao CDN[^cdn] do Vista[^vista]. <br />
 
-# VII. MÍDIAS DE ORIGEM
+<!-- # VII. MÍDIAS DE ORIGEM
 
 Segue a nomenclatura
 
 
 
-
+-->
 # VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS
 
 Segue o padrão de nomenclatura **LLNNNNN**
@@ -248,6 +249,7 @@ Segue o padrão de nomenclatura **LLNNNNN**
 **ME**: Meta
 **LP**: Landing Page
 **RD**: RDStation
+**GO**: Google
 
 
 **Construtora (NN - 01 a 99):**
@@ -256,6 +258,7 @@ Segue o padrão de nomenclatura **LLNNNNN**
 **02** - Paysage
 **03** - Zacaria
 **04** - Artesano
+**05** - Real Estate
 
 
 **Empreendimento (NN - 01 a 999):**
@@ -267,6 +270,7 @@ flowchart LR
     B["02 - Construtora Zacaria"] --> B1["001 - Maison Jardin"] & B2["002 - Meari"]
     C["03 - Paysage Corpal"] --> C1["001 - Haus"] & C2["002 - Garnet"]
     D["04 - Artesano"] --> D1["001 - Artesano"]
+    E["05 - Real Estate"] --> E1["001 - Alpha Mall"] & E2["002 - One Nova Palhano"]
     A1 --> nv["01001"]
     A2 --> n0["01002"]
     A3 --> nt["01003"]
@@ -277,6 +281,8 @@ flowchart LR
     C1 --> nk["03001"]
     C2 --> n9["03002"]
     D1 --> nq["04001"]
+    E1 --> nr["05001"]
+    E2 --> ns["05002"]
 ```
 
 Exemplo de uso:
@@ -289,7 +295,6 @@ Exemplo de uso:
 O código gerado deve ser incluído nos final dos textos das mensagens pré-definidas para o WhatsApp nas campanhas ativas pela equipe responsável. Isso permite que o sistema interprete os códigos e faça o direcionamento adequado
 
 
-
 # IX. SUPORTE
 
 Via ticket de atendimento, para [cmsouza@leadzsoftware.zohodesk.com](mailto:cmsouza@leadzsoftware.zohodesk.com) <br />
@@ -300,7 +305,7 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 01/10/2022 <br />
 
 ### Última Atualização
-10/06/2024 <br />
+10/08/2024 <br />
 
 <!-- ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
