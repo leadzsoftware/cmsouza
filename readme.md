@@ -6,7 +6,7 @@
 [ IV. CHATBOT](https://github.com/leadzsoftware/cmsouza#iv-chatbot)<br />
 [  V. BACKUP - IMÓVEIS](https://github.com/leadzsoftware/cmsouza#v-backup---c%C3%B3pia-do-banco-de-im%C3%B3veis)<br />
 [ VI. OTIMIZAÇÃO - IMAGENS](https://github.com/leadzsoftware/cmsouza#vi-c%C3%B3pia-e-otimiza%C3%A7%C3%A3o-das-imagens-dos-im%C3%B3veis)<br />
-<!-- [VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br /> -->
+[VII. MÍDIAS DE ORIGEM](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#vii-m%C3%ADdias-de-origem)<br />
 [VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#viii-estrutura-de-c%C3%B3digos-para-identifica%C3%A7%C3%A3o-de-empreendimentos)<br />
 [ IX. SUPORTE](https://github.com/leadzsoftware/cmsouza?tab=readme-ov-file#ix-suporte)<br />
 [  X. NOTAS](https://github.com/leadzsoftware/cmsouza#notas)<br />
@@ -226,13 +226,32 @@ As informações dos imóveis que são salvas são as seguintes:
 As fotos dos imóveis também passam por uma otimização em nosso servidor, e, posteriormente, é replicada para o nosso CDN[^cdn]. <br />
 Com isso, reduzimos o tempo médio de carregamento de cada imagem do imóvel em aproximadamente 80%, indo de ~300ms[^~] [^ms] para cerca de ~60ms[^ms]. Isso equivale a um carregamento de imagens 4 vezes mais rápida em comparação ao CDN[^cdn] do Vista[^vista]. <br />
 
-<!-- # VII. MÍDIAS DE ORIGEM
+# VII. MÍDIAS DE ORIGEM
 
-Segue a nomenclatura
+Segue a estrutura **$finalidade_$origem_$empreendimento** (este último, no caso de lançamentos)
+Exemplo:
 
+Locação_Site
+Venda_ChavesNaMão
 
+O campo Finalidade pode conter:
+Venda
+Locação
+Lançamento
+Real Estate
+Vectra
 
--->
+O campo Origem pode conter:
+Site
+Meta
+ChavesNaMão
+GrupoZap
+WhatsApp
+Telefone
+Presencial
+
+O campo Empreendimento só será preenchido no caso do imóvel ser da categoria "Lançamento", "Real Estate" ou "Vectra"
+
 # VIII. ESTRUTURA DE CÓDIGOS PARA IDENTIFICAÇÃO DE EMPREENDIMENTOS
 
 Segue o padrão de nomenclatura **LLNNNNN**
@@ -306,7 +325,7 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 01/10/2022 <br />
 
 ### Última Atualização
-10/08/2024 <br />
+13/09/2024 <br />
 
 <!-- ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
@@ -321,7 +340,3 @@ https://github.com/pepeleascov/cmsouza <br />
 [^vista]: [NovoVista](http://www.vistasoft.com.br/)
 [^trabalhe]: [Trabalhe Conosco](https://www.cmsouza.com.br/trabalhe-conosco)
 [^anuncie]: [Anuncie seu imóvel](https://www.cmsouza.com.br/anuncie-seu-imovel) 
-
-<!-- 
-Comment 2
--->
