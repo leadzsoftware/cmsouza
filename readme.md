@@ -290,7 +290,7 @@ flowchart LR
     C["03 - Paysage Corpal"] --> C1["001 - Haus"] & C2["002 - Garnet"]
     D["04 - Artesano"] --> D1["001 - Artesano"]
     E["05 - Real Estate"] --> E1["001 - Alpha Mall"] & E2["002 - One Nova Palhano"]
-    F["06 - Galmo"] --> F1["001 - Torre Verona"] & F2["002 - Torre Blanca"] & F3["003 - Catuaí Corporate]
+    F["06 - Galmo"] --> F1["001 - Torre Verona"] & F2["002 - Torre Blanca"] & F3["003 - Catuaí Corporate"]
     A1 --> nv["01001"]
     A2 --> n0["01002"]
     A3 --> nt["01003"]
@@ -305,9 +305,9 @@ flowchart LR
     D1 --> nq["04001"]
     E1 --> nr["05001"]
     E2 --> ns["05002"]
-    F1 --> nt["06001"]
+    F1 --> nx["06001"]
     F2 --> nu["06002"]
-    F3 --> nv["06003"]
+    F3 --> nw["06003"]
 ```
 
 Exemplo de uso:
