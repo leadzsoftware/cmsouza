@@ -285,7 +285,7 @@ Numerados de 01 a 999 para cada construtora.
 
 ```mermaid
 flowchart LR
-    A["01 - Vectra"] --> A1["001 - Hera"] & A2["002 - Gaia"] & A3["003 - Oro"] & A4["004 - Wonder"] & A5["005 - Wynn"] & A6["006 - Zahra"] & A7["007 - Lotus"]
+    A["01 - Vectra"] --> A1["001 - Hera"] & A2["002 - Gaia"] & A3["003 - Oro"] & A4["004 - Wonder"] & A5["005 - Wynn"] & A6["006 - Zahra"] & A7["007 - Lotus"] & A8["008 - Wave"]
     B["02 - Construtora Zacaria"] --> B1["001 - Maison Jardin"] & B2["002 - Meari"]
     C["03 - Paysage Corpal"] --> C1["001 - Haus"] & C2["002 - Garnet"]
     D["04 - Artesano"] --> D1["001 - Artesano"]
@@ -298,6 +298,7 @@ flowchart LR
     A5 --> nh["01005"]
     A6 --> ni["01006"]
     A7 --> nj["01007"]
+    A8 --> nm["01007"]
     B1 --> nn["02001"]
     B2 --> nl["02002"]
     C1 --> nk["03001"]
