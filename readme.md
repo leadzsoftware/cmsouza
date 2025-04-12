@@ -39,9 +39,12 @@ A informação "departamento" segue a seguinte ordem:
 
     CMSOUZA VENDA: 11
     CMSOUZA LOCAÇÃO: 12
-    CMSOUZA LANÇAMENTOS: 13
+    CMSOUZA LANÇAMENTOS HORIZONTAIS: 13
     CMSOUZA REAL ESTATE: 14
     CMSOUZA VECTRA: 15
+    CMSOUZA GALMO: 25
+    CMSOUZA LANÇAMENTOS VERTICAIS: 26
+
 
 Os portais integrados são informados ao Vista[^vista] com as seguintes mídias de origem, sem espaços:
 
@@ -95,11 +98,6 @@ As informações captadas nesta página são direcionadas à roleta de atendimen
 
 Nosso sistema (Leadz) atua em conjunto com o serviço contratado "Sendpulse"[^chatbot], utilizando o chatbot como forma de entrada de dados. O chatbot faz a interação com o usuário durante o atendimento dos leads no WhatsApp, onde posteriormente nosso sistema os envia para a roleta de atendimento do Vista[^vista] com a mídia de origem "Site-Whatsapp". <br />
 Para os contatos provenientes dos portais, nosso sistema identifica os links dentro das mensagens e classifica a mídia de origem de acordo com o link do portal.
-Dessa forma, os leads dos portais atendidos através do WhatsApp são enviados para a roleta de atendimento com uma das seguintes mídias de origem:
-
-    Venda | Locação_GrupoZap_Whatsapp
-    Venda | Locação_VivaReal_Whatsapp
-    Venda | Locação_ChavesNaMão_Whatsapp
 
 Os outros contatos provenientes da opção "Atendimento por WhatsApp" da barra de contatos do site da CMSouza são classificados com a mídia de origem "Site-Whatsapp". <br />
 O nosso sistema, em conjunto com o chatbot[^chatbot], armazena as mensagens recebidas durante a interação do chat e ao final as envia no campo "mensagem" do lead a ser cadastrado na roleta de atendimento.
@@ -240,6 +238,8 @@ Locação
 Lançamento
 Real Estate
 Vectra
+Plaenge
+Vanguard
 
 O campo Origem pode conter:
 Site
@@ -291,6 +291,8 @@ flowchart LR
     D["04 - Artesano"] --> D1["001 - Artesano"]
     E["05 - Real Estate"] --> E1["001 - Alpha Mall"] & E2["002 - One Nova Palhano"]
     F["06 - Galmo"] --> F1["001 - Torre Verona"] & F2["002 - Torre Blanca"] & F3["003 - Catuaí Corporate"]
+    G["07 - Vanguard"] --> G1["001 - Summer"] & G2["002 - Sense"]
+    H["08 - Plaenge"] --> H1["001 - Arbo"] & H2["002 - Botânico"]
     A1 --> nv["01001"]
     A2 --> n0["01002"]
     A3 --> nt["01003"]
@@ -309,6 +311,10 @@ flowchart LR
     F1 --> nx["06001"]
     F2 --> nu["06002"]
     F3 --> nw["06003"]
+    G1 --> nx["07001"]
+    G2 --> ny["07002"]
+    H1 --> nz["08001"]
+    H2 --> na["08002"]
 ```
 
 Exemplo de uso:
@@ -331,7 +337,7 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 01/10/2022 <br />
 
 ### Última Atualização
-13/09/2024 <br />
+12/04/2025 <br />
 
 <!-- ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
