@@ -1,5 +1,10 @@
 # TECNOLOGIAS LEADZ - CMSOUZA
 
+
+# DEPRECADO COM MIGRAÇÃO PARA NOVO CRM
+
+
+
 [  I. ESCOPO](https://github.com/leadzsoftware/cmsouza#i-escopo-desta-documenta%C3%A7%C3%A3o)<br />
 [ II. PORTAIS](https://github.com/leadzsoftware/cmsouza#ii-portais)<br />
 [III. SITE](https://github.com/leadzsoftware/cmsouza#iii-site)<br />
@@ -337,7 +342,7 @@ Ou e-mail: [suporte@leadz.software](mailto:suporte@leadz.software) <br />
 01/10/2022 <br />
 
 ### Última Atualização
-12/04/2025 <br />
+14/09/2025 <br />
 
 <!-- ### Histórico - Link anterior
 https://github.com/pepeleascov/cmsouza <br />
